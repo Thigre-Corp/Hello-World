@@ -1,0 +1,38 @@
+:root {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#todoCards {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+}
+
+#wrapper {
+  margin: 1em;
+}
+
+#todo {
+  padding: 1em;
+}
+
+/*
+#count{
+
+}
+#todoCard{
+
+}
+.task{
+
+}
+.delBtn{
+
+}*/
+#btn {
+  margin-bottom: 1em;
+  background-color: rgba(22, 22, 22, 0.4);
+  width: 80%;
+}/*# sourceMappingURL=style.css.map */
