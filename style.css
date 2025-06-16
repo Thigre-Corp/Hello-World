@@ -6,8 +6,15 @@
 
 #todoCards {
   display: flex;
-  position: absolute;
-  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+img {
+  position: relative;
+  bottom: 9px;
+  right: 25px;
+  height: 16px;
+  aspect-ratio: 1/1;
 }
 
 #wrapper {
@@ -18,19 +25,6 @@
   padding: 1em;
 }
 
-/*
-#count{
-
-}
-#todoCard{
-
-}
-.task{
-
-}
-.delBtn{
-
-}*/
 #btn {
   margin-bottom: 1em;
   background-color: rgba(22, 22, 22, 0.4);
